@@ -7,7 +7,7 @@ function App() {
   const [showForm, setShowForm] = useState(false);
   const [showResult, setShowResult] = useState(false);
   const [number, setNumber] = useState();
-  const [risultato, setRisultato] = useState([]);
+  const [result, setRisultato] = useState([]);
 
   const handleInput = (e) => {
     setNumber(e.target.value);
